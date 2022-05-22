@@ -30,7 +30,7 @@ yarn dev or npm run dev
 
 ### EndPoints
 ```
-1. Esteira:<br>
+1. Esteira:
     1.1. Count [retorna total de registros] - GET:/esteira/c
     1.2. Index [retorna todos os registros] - GET:/esteira/
     1.3. Show  [retorna um único registro ] - GET:/esteira/{id}

@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "API for CLP Analytics",
-  "repository": "",
+  "repository": "https://github.com/dssp/clpanalyticspi2.git",
   "author": "Durval Sproesser <sproesser@gmail.com>",
   "main": "index.js",
   "scripts": {

@@ -6,7 +6,6 @@ const Route = require('./routes/routes');
 
 require('./database/index');
 
-
 const app = express();
 
 app.use(cors());

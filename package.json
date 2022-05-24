@@ -6,7 +6,7 @@
   "author": "Durval Sproesser <sproesser@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
   "license": "MIT",

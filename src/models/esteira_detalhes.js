@@ -6,6 +6,7 @@ class EsteiraDetalhes extends Model {
             velocidade_rolo: DataTypes.FLOAT(12,2),
             velocidade_esteira: DataTypes.FLOAT(12,2),
             velocidade_esteira: DataTypes.DATE,
+            timestamp: DataTypes.DATE,
         }, {
             sequelize,
             paranoid: false,

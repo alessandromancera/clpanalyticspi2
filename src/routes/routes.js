@@ -15,6 +15,6 @@ router.get('/flowpack/c', FlowPackController.count);
 router.get('/flowpack/', FlowPackController.index);
 router.get('/flowpack/:id', FlowPackController.show);
 
-router.use('/*', (req,res)=>{ res.redirect('/')} );
+router.use('/*', (req,res)=>{ res.send({ message: 'Hello stranger!'})} );
 
 module.exports = router;    

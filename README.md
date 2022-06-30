@@ -15,9 +15,9 @@ Rogerio Rodella, 2009359<br>
 ### Install
 
 1. Verify .ENV: dbName/connections
-2. Create mySQL DB named: `clpanalyticspi2` or execute `yarn sequelize db:create`
-3. Execute `yarn sequelize db:migrate`
-4. Execute `yarn sequelize db:seed:all`
+2. Create mySQL DB named: `clpanalyticspi2` or execute `yarn sequelize db:create` or `npm exec sequelize db:create`
+3. Execute `yarn sequelize db:migrate` or `npm exec sequelize db:migrate`
+4. Execute `yarn sequelize db:seed:all` or `npm exec sequelize db:seed:all`
 
 ```
 #install dependence

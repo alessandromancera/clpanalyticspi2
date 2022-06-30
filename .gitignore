@@ -2,8 +2,4 @@ node_modules
 yarn.lock
 package-lock.json
 _mynotes.txt
-<<<<<<< HEAD
 http.http
-=======
-coverage
->>>>>>> 39b74577b240fd1e5cbdce950d0f67aa99c04750

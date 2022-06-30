@@ -1,7 +1,6 @@
 const request = require("supertest")
 const app = require('../src/config')
 
-
 describe('Test my App Server', () =>{
     it('should get main route', async () => {
         const res = await request(app).get('/')
@@ -32,7 +31,7 @@ describe('Test my Esteira routes', () =>{
         const res = await request(app).get('/esteira/x')
         expect(res.body).toHaveProperty('error')
         expect(res.statusCode).toEqual(400)
-    }) 
+    })
 })
 
 describe('Test my Forno routes', () =>{
